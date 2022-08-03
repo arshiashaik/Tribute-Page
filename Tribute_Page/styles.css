@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+}
+#main {
+  background-color: #eee;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+p {
+  text-align: center;
+}
+#img-div {
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+figcaption {
+  padding-top: 10px;
+  text-align: center;
+}
+h3 {
+  padding-top: 20px;
+  text-align: center;
+}
+span {
+  font-weight: bold;
+}
+#tribute-info li {
+  margin: 20px 200px;
+}
+@media only screen and (max-width: 600px) {
+  #tribute-info li,
+  .quote,
+  footer {
+    margin: 20px 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #tribute-info li,
+  .quote,
+  footer {
+    margin: 20px 10px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #tribute-info li,
+  .quote,
+  footer {
+    margin: 20px 10px;
+  }
+}
+.quote {
+  padding-top: 20px;
+  margin: 20px 80px;
+}
+footer {
+  padding: 20px 20px;
+}
